@@ -1,13 +1,23 @@
-// --- Directions
-// Given an integer, return an integer that is the reverse
-// ordering of numbers.
-// --- Examples
-//   reverseInt(15) === 51
-//   reverseInt(981) === 189
-//   reverseInt(500) === 5
-//   reverseInt(-15) === -51
-//   reverseInt(-90) === -9
+// ---- Solution A
+//
+// Turning the int to a string, then to an array, reverse it, then back into an int.
+// Prasing the string as an int, and multiplying by -1 if the original value is negative. 
+//
+// function reverseInt(n) {
+//     const reversed = n.toString().split('').reverse().join('');
+//     if (n < 0) {
+//         return parseInt(reversed) * -1;
+//     }
+//     return parseInt(reversed);
+// }
 
-function reverseInt(n) {}
+
+// ---- Solution A - [Cleaner]
+// Same thing, but using Math.sign() instead of comparisons.
+//
+function reverseInt(n) {
+    const reversed = n.toString().split('').reverse().join('');
+    return parseInt(reversed) * Math.sign(n);
+}
 
 module.exports = reverseInt;
