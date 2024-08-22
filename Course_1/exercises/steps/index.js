@@ -1,22 +1,12 @@
-// --- Directions
-// Write a function that accepts a positive number N.
-// The function should console log a step shape
-// with N levels using the # character.  Make sure the
-// step has spaces on the right hand side!
-// --- Examples
-//   steps(2)
-//       '# '
-//       '##'
-//   steps(3)
-//       '#  '
-//       '## '
-//       '###'
-//   steps(4)
-//       '#   '
-//       '##  '
-//       '### '
-//       '####'
+// --- Solution
+//
+function steps(n) {
+    // Looping from 1 untill N
+    for (let i = 1; i <= n; i++) {
+        // settings a step, from I times # and n-1 times space, to create the string.
+        console.log('#'.repeat(i) + " ".repeat(n-i))    
+    }
+}
 
-function steps(n) {}
 
 module.exports = steps;
