@@ -19,6 +19,10 @@
 
 
 // ---- Solution B
+// In this solution we are creating an array of chunked chunks, and an index which we will use to indicate where to slice.
+// while the index is less the the amount of the items (well, -1 because it starts from 0)
+// we will push into the chunked list, the sliced part from the original array, the part which is between the index, and the index + the required size.
+//
 function chunk(array, size) {
     const chunked = [];
     let index = 0;

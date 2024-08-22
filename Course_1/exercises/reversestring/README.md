@@ -1,6 +1,6 @@
 # String reverse
 
-reverse a string using the reverse function
+Reverse a string using the reverse function
 
 ### Examples:
 ```
