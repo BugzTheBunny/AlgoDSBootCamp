@@ -27,3 +27,4 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 
 ---
 ### `Course 2` - [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+- [Cheatsheet](https://zerotomastery.io/cheatsheets/data-structures-and-algorithms-cheat-sheet)

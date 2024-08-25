@@ -1,4 +1,4 @@
-# Array Chunk
+# Vowels
 
 Write a function that returns the number of vowels
 used in a string.  

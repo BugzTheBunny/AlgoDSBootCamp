@@ -1,4 +1,4 @@
-# Array Chunk
+# Steps
 
 Write a function that accepts a positive number N.  
 The function should console log a step shape
