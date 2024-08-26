@@ -1,13 +1,21 @@
-// --- Description
-// Create a queue data structure.  The queue
-// should be a class with methods 'add' and 'remove'.
-// Adding to the queue should store an element until
-// it is removed
-// --- Examples
-//     const q = new Queue();
-//     q.add(1);
-//     q.remove(); // returns 1;
+// Solution
+//
+class Queue {
+    // Constructor for the queue object, needs only an element of data (array)
+    constructor() {
+        this.data = [];
+    }
 
-class Queue {}
+    add(record) {
+        // This will add the record to the queue in the beginning of the array.
+        this.data.unshift(record);
+    }
+
+
+    remove(){
+        // This will remove the last item from the queue and return it.
+        return this.data.pop();
+    }
+}
 
 module.exports = Queue;

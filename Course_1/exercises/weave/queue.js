@@ -1,8 +1,5 @@
 // --- Directions
-// Implement a 'peek' method in this Queue class.
-// Peek should return the last element (the next
-// one to be returned) from the queue *without*
-// removing it.
+
 
 class Queue {
   constructor() {
@@ -15,6 +12,10 @@ class Queue {
 
   remove() {
     return this.data.pop();
+  }
+
+  peek(){ // Peek returns the last item in the queue
+    return this.data[this.data.length - 1];
   }
 }
 

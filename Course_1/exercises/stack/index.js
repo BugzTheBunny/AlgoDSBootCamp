@@ -1,15 +1,26 @@
-// --- Directions
-// Create a stack data structure.  The stack
-// should be a class with methods 'push', 'pop', and
-// 'peek'.  Adding an element to the stack should
-// store it until it is removed.
-// --- Examples
-//   const s = new Stack();
-//   s.push(1);
-//   s.push(2);
-//   s.pop(); // returns 2
-//   s.pop(); // returns 1
+// Solution
+//
 
-class Stack {}
+class Stack {
+    // Constructor for the stack object, needs only an element of data (array)
+    constructor() {
+        this.data = [];
+    }
+
+    push(record) {
+        // This will add the record to the stack in the end of the array.
+        this.data.push(record);
+    }
+
+    pop() {
+        // This will remove the last item from the stack and return it.
+        return this.data.pop();
+    }
+
+    peek(){
+        // This will return the last item in the stack.
+        return this.data[this.data.length -1];
+    }
+}
 
 module.exports = Stack;
