@@ -10,6 +10,7 @@
 - [Exercise 3 - Challenge](HandsOn/ex3_challenge.js) - Calculation of BigO example.
 - [Exercise 4 - Challenge](HandsOn/ex4_challenge.js) - Calculation of BigO example.
 - [Exercise 5](HandsOn/ex5.js) - O(n^2) example.
-- [Exercise 6](HandsOn/ex5.js) - O(n^2) example. (Relevant to rule 4.)
+- [Exercise 6](HandsOn/ex6.js) - O(n^2) example. (Relevant to rule 4.)
+- [Exercise 7](HandsOn/ex7.js) - Space Complexity
 
 

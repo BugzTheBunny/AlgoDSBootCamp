@@ -10,7 +10,9 @@
 ### Interview related.
 
 - [Interview Mind Map](https://coggle.it/diagram/W5u8QkZs6r4sZM3J/t/master-the-interview) - Provided by the course creators.
+
 - You can use this to search google for reqruiters `site:linkedin.com $compamny% recruiter` 
+
 ### Misc.
 - #### Protfolio / personal websites:
     - [HTML5UP](https://html5up.net/)
