@@ -21,14 +21,12 @@
 //     if (n < 2) {
 //         return n;
 //     }
-
 //     return fib(n-1) + fib(n-2);
 // }
 
 
 // Solution C -- Recursive + Memoization.
 //
-
 // Caching previous results, in order to reduce the  runtime complexity.
 function memoize(fn) {
     const cache = {}; // This object will hold previous results as a cache.
