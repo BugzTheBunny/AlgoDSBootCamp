@@ -45,3 +45,9 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
     - [Big O Calculation Rules](/Course_2/Section-3-BigO/Notes/BigOCalculationRules.md)
     - [Big O Cheat Sheet](/Course_2/Section-3-BigO/CheatSheet.md)
 
+- ### _Data Structure : Arrays_
+    - [Arrays Content](/Course_2/Section-6-DS-Arrays/README.md)
+
+- ### _Data Structure : Hash Tables_
+    - [Hash Table Content](/Course_2/Section-7-DS-Hash-Tables/README.md)
+
