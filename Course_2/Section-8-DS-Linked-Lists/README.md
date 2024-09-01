@@ -11,10 +11,15 @@
 
 
 - `Pros`
-
+    - fast inserteion
+    - fast deletetion
+    - ordered
+    - flexible size
 
 - `Cons`
-
+    - slow lookup
+    - more memmory
+    
 ## Examples: 
 - [Linked List Example](./HandsOn/ex1.js)
 - [Double Linked List Example](./HandsOn/ex2.js)
