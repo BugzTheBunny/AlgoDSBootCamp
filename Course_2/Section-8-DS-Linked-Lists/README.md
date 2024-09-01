@@ -17,4 +17,5 @@
 
 ## Examples: 
 - [Linked List Example](./HandsOn/ex1.js)
+- [Double Linked List Example](./HandsOn/ex2.js)
     

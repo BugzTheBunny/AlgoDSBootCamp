@@ -51,3 +51,5 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 - ### _Data Structure : Hash Tables_
     - [Hash Table Content](/Course_2/Section-7-DS-Hash-Tables/README.md)
 
+- ### _Data Structure : Linked Lists_
+    - [Linked Lists Content](/Course_2/Section-8-DS-Linked-Lists/README.md)
