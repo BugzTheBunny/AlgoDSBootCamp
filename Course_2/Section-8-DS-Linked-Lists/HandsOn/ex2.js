@@ -21,15 +21,17 @@ class Node{
     constructor(value) {
         this.value = value;
         this.next = null;
+        this.prev = null
     }
 
 }
 
-class LinkedList {
+class DoublyLinkedList {
     constructor(value) {
         this.head = {
             value:value,
-            next : null
+            next : null,
+            prev: null
         }
         this.tail = this.head,
         this.length = 1;
@@ -38,6 +40,7 @@ class LinkedList {
     append(value) {
         // Creating a new node
         const newNode = new Node(value);
+        newNode.prev = this.tail;
         // Adding the new node, to the end of the list.
         this.tail.next = newNode;
         // Replacing the tail node, with the new node.
@@ -50,6 +53,7 @@ class LinkedList {
         const newNode = new Node(value);
         // Adding the current head, as a next node, to the new node.
         newNode.next = this.head;
+        this.head.prev = newNode;
         // Replacing the current head, with the newNode.
         this.head = newNode;
         this.length++;
@@ -64,9 +68,11 @@ class LinkedList {
         const newNode = new Node(value);
         
         const leader = this.traversToIndex(index-1)
-        const holdingPointer = leader.next;
+        const follower = leader.next;
         leader.next = newNode;
-        newNode.next = holdingPointer;
+        newNode.prev = leader;
+        newNode.next = follower;
+        follower.prev = newNode;
         this.length++;
 
         return this
@@ -89,24 +95,6 @@ class LinkedList {
 
         }
         return currentNode;
-    }
-
-    reverse() {
-        if (!this.head.next) return this.head;
-
-        let first = this.head;
-        this.tail = this.head;
-        let second = first.next;
-
-        while(second) {
-            const temp = second.next;
-            second.next = first;
-            first.second;
-            second = temp;
-        }
-        this.head.next = null;
-        this.head = first;
-        return this;
     }
 
     printList() {
