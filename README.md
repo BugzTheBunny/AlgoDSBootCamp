@@ -5,6 +5,7 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 ---
 - ### Overall awesome links: 
     - [Big O Cheet Sheet](https://www.bigocheatsheet.com/)
+    - [Algorithm Visualization](https://visualgo.net/en/list)
 
 ----
 ### `Course 1` - [The Coding Interview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure)

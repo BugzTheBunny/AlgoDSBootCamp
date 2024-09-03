@@ -1,4 +1,4 @@
-// Stacks implementation
+// Stacks implementation using Linked List
 class Node {
     constructor(value) {
         this.value = value;
