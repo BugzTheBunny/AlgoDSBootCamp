@@ -54,3 +54,9 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 
 - ### _Data Structure : Linked Lists_
     - [Linked Lists Content](/Course_2/Section-8-DS-Linked-Lists/README.md)
+
+- ### _Data Structure : Stacks & Queues_
+    - [Stacks & Queues Content](/Course_2/Section-9-DS-Stacks-Queues/README.md)
+
+- ### _Data Structure :Binary Trees & O(log N)_
+    - [Binary Trees & O(log N) Content](/Course_2/Section-10-DS-Trees/README.md)
