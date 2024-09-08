@@ -16,16 +16,16 @@
 
 - ## `Unweighted` `Undirected` `Acyclycal` Graph:
 
-    ![image](/Section-11-DS-Graphs/images/unweighted-undirected.webp)
+    ![image](./images/unweighted-undirected.webp)
     
 - ## `Weighted` `Undirected` `Cyclical` Graph:  
-    ![image](/Section-11-DS-Graphs/images/weighted-undirected.png)
+    ![image](./images/weighted-undirected.png)
 
 - ## `Unweighted` `Undirected` `Acyclical` Graph:  
-    ![image](/Section-11-DS-Graphs/images/unweighted-directed.png)
+    ![image](./images/unweighted-directed.png)
 
 - ## `Weighted` `directed` `Cyclical` Graph:  
-    ![image](/Section-11-DS-Graphs/images/weighted-directed.png)
+    ![image](./images/weighted-directed.png)
 
 ---
 
