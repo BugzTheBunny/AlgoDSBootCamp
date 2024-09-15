@@ -36,7 +36,7 @@ This section icludes different sorting algorithms examples.
     Bubble sort repeatedly steps through a list, compares adjacent items, and swaps them if they are in the wrong order. This process continues until the list is sorted, with larger elements moving towards the end with each     pass.
     ----
 
-## Selection Sort [selectionSort](./HandsOn/selectionSort.js)
+## Selection Sort [selectionSort.js](./HandsOn/selectionSort.js)
 `How it works:`
 
 
@@ -60,3 +60,60 @@ This section icludes different sorting algorithms examples.
 
     Continue these steps until you have gone through the entire list.
     With each pass, the next smallest (or largest) element is placed in its correct position.
+
+## Insertion Sort [InsertionSort.js](./HandsOn/insertionSort.js)
+
+`How It Works:`
+
+    Start with the First Element:
+
+    Consider the first element of the list as a sorted sublist of one item.
+    Pick the Next Element:
+
+    Take the next element from the unsorted portion of the list.
+    Find the Correct Position:
+
+    Compare this element with the elements in the sorted sublist, moving from right to left.
+    Shift each element in the sorted sublist that is greater than the current element one position to the right.
+    Insert the Element:
+
+    Place the current element into the position where all elements to its left are smaller (or equal), and all elements to its right are larger.
+    Repeat:
+
+    Continue this process for each element in the unsorted portion until the entire list is sorted.
+
+## Merge Sort [mergeSort.js](./HandsOn/mergeSort.js)
+
+`How It Works:`
+
+    Divide the List:
+
+    Split the list into two roughly equal halves.
+    Continue splitting each half recursively until each sublist contains only one element or is empty.
+    Conquer (Sort) the Sublists:
+
+    Since a list with one element is already sorted, you start merging the sublists.
+    Merge the Sublists:
+
+    Compare the elements of the sublists and merge them into a new sorted list.
+    Repeat this process of merging until all sublists are merged back into a single sorted list.
+
+## Quick Sort [quickSort.js](./HandsOn/quickSort.js)
+
+`How It Works:`
+
+    Choose a Pivot Element:
+
+    Select an element from the list to act as the "pivot."
+    Common choices for the pivot include the first element, the last element, or a random element.
+    Partition the List:
+
+    Rearrange the list so that:
+    All elements less than the pivot come before it.
+    All elements greater than the pivot come after it.
+    The pivot is now in its correct sorted position.
+    Recursively Apply the Above Steps:
+
+    Apply the same logic to the sublist of elements less than the pivot.
+    Apply the same logic to the sublist of elements greater than the pivot.
+    Continue this process until the entire list is sorted.

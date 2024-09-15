@@ -64,3 +64,9 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 
 - ### _Data Structure : Graphs_
     - [Data Structure : Graphs](/Course_2/Section-11-DS-Graphs/README.md)
+
+- ### Algorithm : Recursion_
+    - [Algorithm: Recursion](/Course_2/Section-12-Algo-Recursion/README.md)
+
+- ### Algorithm : Recursion_
+    - [Algorithm: Recursion](/Course_2/Section-13-Sorting-Algorithms/README.md)
