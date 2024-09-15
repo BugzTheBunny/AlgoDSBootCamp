@@ -68,5 +68,5 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 - ### Algorithm : Recursion_
     - [Algorithm: Recursion](/Course_2/Section-12-Algo-Recursion/README.md)
 
-- ### Algorithm : Recursion_
-    - [Algorithm: Recursion](/Course_2/Section-13-Sorting-Algorithms/README.md)
+- ### Algorithm : Sorting Algorithms_
+    - [Algorithm: Sorting Algorithms](/Course_2/Section-13-Sorting-Algorithms/README.md)
