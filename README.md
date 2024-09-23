@@ -70,3 +70,13 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
 
 - ### Algorithm : Sorting Algorithms_
     - [Algorithm: Sorting Algorithms](/Course_2/Section-13-Sorting-Algorithms/README.md)
+
+- ### Algorithm : Searching & Traversal_
+    - [Algorithm: Searching & Traversal](/Course_2/Section-14-Searching-Traversal/README.md)
+
+- ### Algorithm : Dynamic Programming_
+    - [Algorithm: Dynamic Programming](/Course_2/Section-15-Dynamic-Programming/README.md)
+
+### Certification of Course 2
+
+![image](./cert.jpg)
