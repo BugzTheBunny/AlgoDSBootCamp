@@ -78,5 +78,8 @@ This repo contains my studies on Algorithms, Data Structures, and other intervie
     - [Algorithm: Dynamic Programming](/Course_2/Section-15-Dynamic-Programming/README.md)
 
 ### Certification of Course 2
-
 ![image](./cert.jpg)
+
+
+### `Course 3` - (10 Common Coding Interview Problems - Solved!)[https://www.youtube.com/watch?v=Peq4GCPNC5c]
+  
